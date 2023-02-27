@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "QuizGig",
+    "slug": "rnQuizGig",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/quiz1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "",
+      "resizeMode": "conver",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/quiz1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.rnQuizGig.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3cc62af8-6682-4535-a19b-69415e4cd675"
+      }
+    }
+  }
+}
